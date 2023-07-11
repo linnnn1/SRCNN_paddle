@@ -35,9 +35,9 @@ The 91-image, Set5 dataset converted to HDF5 can be downloaded from the links be
 Otherwise, you can use `prepare.py` to create custom dataset.
 
 ```bash
-python train.py --train-file "/root/autodl-tmp/paddle-FSRCNN/SR/SRCNN/BLAH_BLAH/91-image_x3.h5" \
-                --eval-file "/root/autodl-tmp/paddle-FSRCNN/SR/SRCNN/BLAH_BLAH/Set5_x3.h5" \
-                --outputs-dir "/root/autodl-tmp/paddle-FSRCNN/SR/SRCNN/BLAH_BLAH/outputs" \
+python train.py --train-file "BLAH_BLAH/91-image_x3.h5" \
+                --eval-file "BLAH_BLAH/Set5_x3.h5" \
+                --outputs-dir "BLAH_BLAH/outputs" \
                 --scale 3 \
                 --lr 1e-4 \
                 --batch-size 16 \
@@ -59,7 +59,7 @@ Pre-trained weights can be downloaded from the links below.
 The results are stored in the same path as the query image.
 
 ```bash
-python test.py --weights-file "/root/autodl-tmp/paddle-FSRCNN/SR/SRCNN/BLAH_BLAH/outputs/x3/best.pdiparams" \
+python test.py --weights-file "BLAH_BLAH/outputs/x3/best.pdiparams" \
                --image-file "data/butterfly_GT.bmp" \
                --scale 3
 ```
