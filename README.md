@@ -63,7 +63,7 @@ python test.py --weights-file "BLAH_BLAH/outputs/x3/best.pdiparams" \
                --image-file "data/butterfly_GT.bmp" \
                --scale 3
 ```
-PSNR: 27.47
+
 
 
 ## Results
