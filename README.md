@@ -72,13 +72,5 @@ PSNR was calculated on the Y channel.
 
 ### Set5
 
-| Eval. Mat | Scale | SRCNN | SRCNN (Ours) |
-|-----------|-------|-------|--------------|
-
-| PSNR | 3 | 32.75 | 33.29 |
-
-
-
-
 
 
